@@ -36,7 +36,7 @@ end
 def matrix_lookup(matrix, row, column)
   produce =[["Strawberries", "Potatoes", "Grapes", "Avocadoes", "Asparagus"].sort,
     ["Grapefruit", "Pineapple", "Oranges", "Watermelon", "Eggplant"].sort]
-    
+
 
     produce[0][3]
 end
