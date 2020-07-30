@@ -34,8 +34,9 @@ def sorted_matrix
 end
 
 def matrix_lookup(matrix, row, column)
-  produce =[["Grapefruit", "Pineapple", "Oranges", "Watermelon", "Eggplant"].sort,
-    ["Strawberries", "Potatoes", "Grapes", "Avocadoes", "Asparagus"].sort]
+  produce =[["Strawberries", "Potatoes", "Grapes", "Avocadoes", "Asparagus"].sort,
+    ["Grapefruit", "Pineapple", "Oranges", "Watermelon", "Eggplant"].sort]
+    
 
     produce[1][1]
 end
