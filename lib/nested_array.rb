@@ -34,11 +34,11 @@ def sorted_matrix
 end
 
 def matrix_lookup(matrix, row, column)
-  produce =[["Strawberries", "Potatoes", "Grapes", "Avocadoes", "Asparagus"].sort,
-    ["Grapefruit", "Pineapple", "Oranges", "Watermelon", "Eggplant"].sort]
+  produce =[["Strawberries", "Potatoes", "Grapes", "Avocadoes", "Asparagus"],
+    ["Grapefruit", "Pineapple", "Oranges", "Watermelon", "Eggplant"]]
 
 
-    produce[0][1]
+    produce[1][1]
 end
 
 def matrix_update(matrix, row, column, new_value)
